@@ -1,0 +1,453 @@
+.prac{
+    background-image: url(planes/plane1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+} 
+.background::before{
+    content: '';
+    background-image: url(planes/plane1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.25;
+}
+
+/*-----home------*/
+
+.navbar{
+    font-family: sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: crimson;
+    margin-top: 25px;
+    height: 60px;
+    text-align: right;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    width: 100%;
+    display: flex;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.btn{
+    background-color: black;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    height: 30px;
+    text-align: center;
+    transition-duration: 0.05s;
+   align-items: center;
+   margin-left: 20px;
+}
+.btn a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+button:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    opacity: 0.8;
+}
+button a:active{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    opacity: 0.4;
+}
+
+h1{
+    font-size: 120px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 80px;
+    color:crimson;
+    position: relative;
+}
+footer{
+    background-color:crimson;
+    height:240px ;
+
+}
+.footer-container{
+    width: 100%;
+    padding: 20px 20px 20px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white;
+    margin: 10px;
+    border-radius:50%;
+}
+.social-icons a i{
+    font-size:2em;
+    color: black;
+    opacity:0.9 ;
+}
+.social-icons a:hover{
+    background-color: silver;
+    transition: 0.5s;
+}
+.social-icons a i:hover{
+    color: white;
+    transition: 0.5s;
+}
+.footer-nav{
+    margin: 30px 0;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-nav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+    
+}
+.footer-nav ul li a:hover{
+opacity: 1;
+}
+.footer-bottom{
+    background-color:#000;
+    padding: 10px;
+    text-align: center;
+}
+.footer-bottom{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0px 5px;
+    color: crimson;
+}
+
+/*----- site----*/
+
+.site{
+    background-color:wheat;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    column-gap: 20px;
+    row-gap: 20px;
+    column-width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: darkred;
+}
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6,
+.pic7,
+.pic8,
+.pic9{               
+    background-color:white;
+    padding: 10px;
+    height: 450px;
+    border-radius:2% ;
+}
+.explanation1,
+.explanation2,
+.explanation3,
+.explanation4,
+.explanation5,
+.explanation6,
+.explanation7,
+.explanation8,
+.explanation9{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.im1,
+.im2,
+.im3,
+.im4,
+.im5,
+.im6,
+.im7,
+.im8,
+.im9{
+    border-radius: 5%;
+    display: inline;
+}
+.description{
+    display: inline;
+    font-size: 20px;
+    font-family: serif;
+    line-height: 120%;
+}
+span{
+    font-style: italic;
+    color: rgb(24, 24, 73);
+}
+.locators{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+.info{
+    font-size: 17px;
+    font-style: italic;
+}
+
+/*---contact----*/
+
+.contact-background{
+    background-image: url(tourists/tourist3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.conta{
+    color: crimson;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+.form{
+    border: 1px solid black;
+    margin: 7px 0px;
+    padding: 6px 20px;
+    border-radius: 8px;
+}
+.form label{
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+}
+.form input,
+.form textarea{
+width: 100%;
+font-size: 20px;
+margin-top: 5px;
+border: none;
+background: none;
+outline: none;
+}
+.button-contact{
+    background-color: crimson;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    transition-duration: 0.05s;
+   align-items: center;
+   padding: 14px 0px;
+   text-decoration: none;
+   text-transform: uppercase;
+   margin-top: 8px;
+   cursor: pointer;
+}
+.button-contact a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.button-contact:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.button-contact a:active{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    opacity: 0.4;
+}
+
+
+/*---signup----*/
+
+.sign-in{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sign{
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.terms{
+    display: inline-block;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.check{
+    width: 30px;
+    display: inline-block;
+}
+.sign-button{
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  display: block;
+  color: white;
+  background-color:black;
+  transition-duration: 0.5s;
+  align-items: center;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.sign-button:hover{
+  background-color: gray;
+  color: black;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.sign-button:active{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  opacity: 0.4;
+}
+button{
+  text-align: center;
+  margin-left: 35%;
+}
+.sign-body{
+  background-image: url(planes/plane2.jpg); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.sign-container{
+  display: block;
+  padding-top: 100px;
+}
+
+/*----about-----*/
+
+.about-background{
+    background-image: url(tourists/tourist3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background::before{
+    content: '';
+    background-image: url(tourists/tourist3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+}
+.about{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    color:crimson;
+    position: relative;
+}
+.about-description{
+    font-family: serif;
+    font-size: 22px;
+    padding: 30px;
+}
+.about-container{
+    background-color: white;
+    color: black;
+    height: 380px;
+    margin-top: 340px;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 8px;
+}
